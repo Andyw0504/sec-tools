@@ -2,6 +2,21 @@
 
 > 渗透测试常用工具清单 + 高频命令速查。自己常用，随查随用，持续补充。
 
+## 🚀 实用脚本
+
+| 脚本 | 用途 |
+|---|---|
+| [scripts/recon.sh](scripts/recon.sh) | 信息收集一条龙：子域名→存活→端口→nuclei 验证，自动汇总 |
+| [scripts/ir_linux_collect.sh](scripts/ir_linux_collect.sh) | Linux 应急响应一键取证：9 大项痕迹收集到本地目录 |
+
+## 📋 Cheatsheets
+
+- [Nmap](cheatsheets/nmap.md) — 扫描策略、NSE 脚本、实战注意
+- [sqlmap](cheatsheets/sqlmap.md) — 标准流程、请求定制、tamper 绕过
+- [hashcat / hydra](cheatsheets/hashcat.md) — 模式速查、掩码攻击、在线爆破
+- [字典说明](dicts/README.md) — SecLists 部署与自制字典思路
+
+
 ## 📂 信息收集
 
 | 工具 | 用途 | 备注 |
